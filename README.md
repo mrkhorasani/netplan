@@ -10,7 +10,7 @@ WARNING:root: Cannot call Open vSwitch: ovsdb-server.service is not running.
 ********************************
 To solve the above Warning you have to install the below service:
 ```
-root@srv1# apt-get install openvswitch-switch-dpdk
+apt-get install openvswitch-switch-dpdk
 ```
 *******************************
 Then you can reapply the netplan
