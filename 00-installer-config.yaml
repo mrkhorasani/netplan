@@ -1,3 +1,4 @@
+```
 # This is the network config written by 'subiquity'
 network:
   version: 2
@@ -12,3 +13,4 @@ network:
           via: 192.168.0.1
       nameservers:
           addresses: [192.168.0.253,192.168.0.252,192.168.0.1 ,8.8.8.8]
+```
